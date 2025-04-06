@@ -1,0 +1,16 @@
+ROM 0x0000 0x3eb4
+{
+	ROM 0x0000 0x3eb4
+	{
+		*.o ( +RO )
+	}
+
+	RAM 0x3eb4 0x21ca4c
+	{
+		*.o(+RW,+ZI)
+	}
+	CACHE 0x2208fc 0xf800
+	{
+		*.o(cache)
+	}
+}

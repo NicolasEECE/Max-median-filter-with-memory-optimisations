@@ -1,0 +1,21 @@
+ROM 0x0000 0x3b60
+{
+	ROM 0x0000 0x3b60
+	{
+		*.o ( +RO )
+	}
+
+	RAM 0x3b60 0xB4438
+	{
+		*.o(+RW,+ZI)
+	}
+	L2CACHE 0xB7F98 0xf800
+	{
+		*.o(L2cache)
+	}
+	L1CACHE 0xc7798 0x24
+	{
+		*.o(L1cache)
+	}
+
+}

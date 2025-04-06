@@ -1,0 +1,13 @@
+ROM 0x0000 0x3AD4
+{
+	ROM 0x0000 0x3AD4
+	{
+		*.o ( +RO )
+	}
+
+	RAM 0x3aD4 0x21CA40
+	{
+		*.o(+RW,+ZI)
+	}
+
+}
