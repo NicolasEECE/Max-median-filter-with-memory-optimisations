@@ -14,4 +14,4 @@ The three folder variations are:
 2. one buffer: One buffer and one L1 cache memory is implemented.
 3. two buffers: Two buffers and two levels of cache memory are implemented.
 
-Collaborator: 
+Collaborator: @mariwri
